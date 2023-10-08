@@ -1,0 +1,18 @@
+{
+	"name": "feature-report",
+	"version": "0.1.0",
+	"description": "providing APIs for feture report progress",
+	"main": "server.js",
+	"scripts": {
+		"dev": "node --watch server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Madhav R. Jha",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"mongoose": "^7.5.3"
+	}
+}
